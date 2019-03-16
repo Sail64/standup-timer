@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/op/androidprojects/standup-timer1/app/build/intermediates/res/merged/debug/drawable-mdpi/team.png",
+        "source": "/home/op/androidprojects/standup-timer1/app/src/main/res/drawable-mdpi/team.png"
+    },
+    {
+        "merged": "/home/op/androidprojects/standup-timer/app/build/intermediates/res/merged/debug/drawable-mdpi/team.png",
+        "source": "/home/op/androidprojects/standup-timer/app/src/main/res/drawable-mdpi/team.png"
+    },
+    {
+        "merged": "/home/op/androidprojects/standup-timer/app/build/intermediates/res/merged/debug/drawable-mdpi/icon.png",
+        "source": "/home/op/androidprojects/standup-timer/app/src/main/res/drawable-mdpi/icon.png"
+    },
+    {
+        "merged": "/home/op/androidprojects/standup-timer1/app/build/intermediates/res/merged/debug/drawable-mdpi/icon.png",
+        "source": "/home/op/androidprojects/standup-timer1/app/src/main/res/drawable-mdpi/icon.png"
+    }
+]
