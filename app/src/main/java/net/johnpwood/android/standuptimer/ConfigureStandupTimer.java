@@ -73,10 +73,6 @@ public class ConfigureStandupTimer extends Activity implements OnClickListener {
             Logger.d("Displaying the settings");
             displaySettings();
             return true;
-        case R.id.teams:
-            Logger.d("Displaying the team configuration");
-            displayTeamConfiguration();
-            return true;
         default:
             Logger.e("Unknown menu item selected");
             return false;
@@ -93,10 +89,6 @@ public class ConfigureStandupTimer extends Activity implements OnClickListener {
 
     protected void displayHelpDialog() {
         startActivity(new Intent(this, Help.class));
-    }
-
-    protected void displayTeamConfiguration() {
-        startActivity(new Intent(this, TeamList.class));
     }
 
     public void onClick(View v) {
