@@ -1,6 +1,12 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:2:1-29:12
+ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:2:1-26:12
 	package
 		ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:3:4-48
 		INJECTED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml
@@ -9,14 +15,14 @@ ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.x
 		ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:4:28-53
 		INJECTED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml
 		INJECTED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
 		ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:4:4-27
 		INJECTED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml
 		INJECTED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml
-	xmlns:android
-		ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:5:4-26:18
+ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:5:4-23:18
 	android:label
 		ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:5:47-79
 	android:debuggable
@@ -29,7 +35,7 @@ ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.x
 		ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:7:55-87
 	android:name
 		ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:7:17-54
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:8:10-11:26
 action#android.intent.action.MAIN
 ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:9:13-65
@@ -61,43 +67,31 @@ ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.x
 		ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:20:46-78
 	android:name
 		ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:20:17-45
-activity#net.johnpwood.android.standuptimer.TeamDetails
-ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:21:7-95
-	android:theme
-		ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:21:45-92
-	android:name
-		ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:21:17-44
-activity#net.johnpwood.android.standuptimer.MeetingDetails
-ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:22:7-90
-	android:label
-		ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:22:48-87
-	android:name
-		ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:22:17-47
 activity#net.johnpwood.android.standuptimer.Prefs
-ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:23:7-80
+ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:21:7-80
 	android:label
-		ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:23:39-77
+		ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:21:39-77
 	android:name
-		ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:23:17-38
-activity#net.johnpwood.android.standuptimer.TeamList
-ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:24:7-79
-	android:label
-		ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:24:42-76
-	android:name
-		ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:24:17-41
+		ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:21:17-38
 uses-permission#android.permission.WAKE_LOCK
-ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:27:4-67
+ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:24:4-67
 	android:name
-		ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:27:21-64
+		ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:24:21-64
 supports-screens
-ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:28:4-53
+ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:25:4-53
 	android:smallScreens
-		ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:28:22-50
+		ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml:25:22-50
 uses-sdk
 INJECTED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml
+INJECTED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml
+INJECTED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml
+INJECTED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
 		INJECTED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml
+		ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml
 		INJECTED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml
+		ADDED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml
 		INJECTED from /home/op/androidprojects/standup-timer/app/src/main/AndroidManifest.xml
